@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FunctionalButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@drawable/get_round_rectangle_buttons</item>
+        <item name="android:minWidth">80dp</item>
+    </style>
+
+    <style name="FunctionalButtonsLand">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@drawable/get_round_rectangle_buttons</item>
+    </style>
+
+    <style name="NumButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:textColor">@color/colorNumButtonTxt</item>
+        <item name="android:background">@drawable/num_round_rectangle_buttons</item>
+        <item name="android:minWidth">80dp</item>
+    </style>
+
+    <style name="NumButtonsLand">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textColor">@color/colorNumButtonTxt</item>
+        <item name="android:background">@drawable/num_round_rectangle_buttons</item>
+    </style>
+
+    <style name="EqualNumButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textColor">@color/equalButtonColorTxt</item>
+        <item name="android:background">@drawable/func_round_rectangle_buttons</item>
+    </style>
+
+    <style name="EqualNumButtonsLand">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textColor">@color/equalButtonColorTxt</item>
+        <item name="android:background">@drawable/func_round_rectangle_buttons</item>
+    </style>
+</resources>
